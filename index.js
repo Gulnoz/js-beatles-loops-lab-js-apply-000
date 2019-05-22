@@ -19,11 +19,12 @@ function johnLennonFacts(facts){
   return newArr;
 }
 function iLoveTheBeatles(number){
-  let newArr=[];
+  let arr=[];
   let i=number;
   do{
     newArr.push("I love the Beatles!");
+    i++;
   }
-  while(i);
-  
+  while(i<15);
+  return arr;
 }
